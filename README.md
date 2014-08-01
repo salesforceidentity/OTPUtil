@@ -1,4 +1,11 @@
 OTPUtil
 =======
+Apex Classes that implement:
 
-Apex Classes that implement TOTP and HOTP ( Time and HMAC based One-time Passwords per IETF RFC 6238 and 4226 )
+TOTP: Time-Based One-Time Password Algorithm
+http://tools.ietf.org/html/rfc6238
+
+HOTP: An HMAC-Based One-Time Password Algorithm
+http://www.ietf.org/rfc/rfc4226.txt
+
+These are the raw algorithms, and and do not support registration or storage functions for the shared secrets.    
